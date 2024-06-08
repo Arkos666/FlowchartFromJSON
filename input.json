@@ -1,0 +1,311 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Satya Nadella",
+      "title": "CEO",
+      "department": "Executive Leadership",
+      "directReports": ["2", "3", "4", "5", "6", "7", "8"]
+    },
+    {
+      "id": "2",
+      "label": "Amy Hood",
+      "title": "CFO",
+      "department": "Finance",
+      "directReports": ["9", "10"]
+    },
+    {
+      "id": "3",
+      "label": "Brad Smith",
+      "title": "President",
+      "department": "Legal and Corporate Affairs",
+      "directReports": ["11", "12"]
+    },
+    {
+      "id": "4",
+      "label": "Scott Guthrie",
+      "title": "EVP, Cloud and AI",
+      "department": "Cloud and AI",
+      "directReports": ["13", "14", "15"]
+    },
+    {
+      "id": "5",
+      "label": "Judson Althoff",
+      "title": "EVP, Worldwide Commercial Business",
+      "department": "Worldwide Commercial Business",
+      "directReports": ["16", "17", "18"]
+    },
+    {
+      "id": "6",
+      "label": "Phil Spencer",
+      "title": "EVP, Gaming",
+      "department": "Gaming",
+      "directReports": ["19", "20", "21"]
+    },
+    {
+      "id": "7",
+      "label": "Kathleen Hogan",
+      "title": "EVP, HR",
+      "department": "Human Resources",
+      "directReports": ["22", "23", "24"]
+    },
+    {
+      "id": "8",
+      "label": "Rajesh Jha",
+      "title": "EVP, Experiences and Devices",
+      "department": "Experiences and Devices",
+      "directReports": ["25", "26", "27", "28"]
+    },
+    {
+      "id": "9",
+      "label": "Michael Johnson",
+      "title": "VP, Finance Operations",
+      "department": "Finance",
+      "directReports": []
+    },
+    {
+      "id": "10",
+      "label": "Karen Davis",
+      "title": "VP, Investor Relations",
+      "department": "Finance",
+      "directReports": []
+    },
+    {
+      "id": "11",
+      "label": "Linda Thompson",
+      "title": "SVP, Legal",
+      "department": "Legal and Corporate Affairs",
+      "directReports": []
+    },
+    {
+      "id": "12",
+      "label": "Mark Ramirez",
+      "title": "SVP, Corporate Affairs",
+      "department": "Legal and Corporate Affairs",
+      "directReports": []
+    },
+    {
+      "id": "13",
+      "label": "Sarah Adams",
+      "title": "VP, Azure",
+      "department": "Cloud and AI",
+      "directReports": []
+    },
+    {
+      "id": "14",
+      "label": "Greg Turner",
+      "title": "VP, AI Engineering",
+      "department": "Cloud and AI",
+      "directReports": []
+    },
+{
+      "id": "15",
+      "label": "Peter White",
+      "title": "VP, Cloud Infrastructure",
+      "department": "Cloud and AI",
+      "directReports": []
+    },
+    {
+      "id": "16",
+      "label": "Laura Johnson",
+      "title": "VP, Marketing",
+      "department": "Worldwide Commercial Business",
+      "directReports": []
+    },
+    {
+      "id": "17",
+      "label": "John Anderson",
+      "title": "VP, Sales",
+      "department": "Worldwide Commercial Business",
+      "directReports": []
+    },
+    {
+      "id": "18",
+      "label": "Megan Roberts",
+      "title": "VP, Business Development",
+      "department": "Worldwide Commercial Business",
+      "directReports": []
+    },
+    {
+      "id": "19",
+      "label": "David Walker",
+      "title": "VP, Xbox",
+      "department": "Gaming",
+      "directReports": []
+    },
+    {
+      "id": "20",
+      "label": "Jennifer Thompson",
+      "title": "VP, Game Studios",
+      "department": "Gaming",
+      "directReports": []
+    },
+    {
+      "id": "21",
+      "label": "Brian Mitchell",
+      "title": "VP, Gaming Services",
+      "department": "Gaming",
+      "directReports": []
+    },
+    {
+      "id": "22",
+      "label": "Michelle Lee",
+      "title": "VP, Talent Acquisition",
+      "department": "Human Resources",
+      "directReports": []
+    },
+    {
+      "id": "23",
+      "label": "Daniel Scott",
+      "title": "VP, Employee Relations",
+      "department": "Human Resources",
+      "directReports": []
+    },
+    {
+      "id": "24",
+      "label": "Rachel Baker",
+      "title": "VP, Diversity and Inclusion",
+      "department": "Human Resources",
+      "directReports": []
+    },
+    {
+      "id": "25",
+      "label": "Susan Davis",
+      "title": "VP, Windows and Devices",
+      "department": "Experiences and Devices",
+      "directReports": []
+    },
+    {
+      "id": "26",
+      "label": "Jeff Patterson",
+      "title": "VP, Office and Microsoft 365",
+      "department": "Experiences and Devices",
+      "directReports": []
+    },
+    {
+      "id": "27",
+      "label": "Richard Adams",
+      "title": "VP, Surface",
+      "department": "Experiences and Devices",
+      "directReports": []
+    },
+    {
+      "id": "28",
+      "label": "Emily Turner",
+      "title": "VP, Developer Tools",
+      "department": "Experiences and Devices",
+      "directReports": []
+    }
+  ],
+  "edges": [
+  {
+    "from": "1",
+    "to": "2"
+  },
+  {
+    "from": "1",
+    "to": "3"
+  },
+  {
+    "from": "1",
+    "to": "4"
+  },
+  {
+    "from": "1",
+    "to": "5"
+  },
+  {
+    "from": "1",
+    "to": "6"
+  },
+  {
+    "from": "1",
+    "to": "7"
+  },
+  {
+    "from": "1",
+    "to": "8"
+  },
+  {
+    "from": "2",
+    "to": "9"
+  },
+  {
+    "from": "2",
+    "to": "10"
+  },
+  {
+    "from": "3",
+    "to": "11"
+  },
+  {
+    "from": "3",
+    "to": "12"
+  },
+  {
+    "from": "4",
+    "to": "13"
+  },
+  {
+    "from": "4",
+    "to": "14"
+  },
+  {
+    "from": "4",
+    "to": "15"
+  },
+  {
+    "from": "5",
+    "to": "16"
+  },
+  {
+    "from": "5",
+    "to": "17"
+  },
+  {
+    "from": "5",
+    "to": "18"
+  },
+  {
+    "from": "6",
+    "to": "19"
+  },
+  {
+    "from": "6",
+    "to": "20"
+  },
+  {
+    "from": "6",
+    "to": "21"
+  },
+  {
+    "from": "7",
+    "to": "22"
+  },
+  {
+    "from": "7",
+    "to": "23"
+  },
+  {
+    "from": "7",
+    "to": "24"
+  },
+  {
+    "from": "8",
+    "to": "25"
+  },
+  {
+    "from": "8",
+    "to": "26"
+  },
+  {
+    "from": "8",
+    "to": "27"
+  },
+  {
+    "from": "8",
+    "to": "28"
+  }
+]
+
+}
